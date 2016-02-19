@@ -1,0 +1,29 @@
+{
+  "name": "multimodal-api-nodejs-client",
+  "version": "1.0.0",
+  "description": "This is nodejs implementation of Systran Multimodal client library",
+  "main": "setup.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "SYSTRAN S.A.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SYSTRAN/multimodal-api-nodejs-client.git"
+  },
+  "dependencies": {
+    "q": "^1.4.1",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0"
+  }
+}
